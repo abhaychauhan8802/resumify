@@ -22,7 +22,7 @@ const navLinks: NavLink[] = [
   },
   {
     name: "Sign In",
-    href: "/auth/sign-in",
+    href: "/sign-in",
   },
 ];
 
@@ -58,7 +58,7 @@ const Header = () => {
               </Link>
             ))}
 
-            <Link href="/auth/sign-up">
+            <Link href="/sign-up">
               <Button className="btn-gradient">Get Started</Button>
             </Link>
           </nav>
@@ -90,7 +90,7 @@ const Header = () => {
                   {link.name}
                 </Link>
               ))}
-              <Link href="/auth/sign-up">
+              <Link href="/sign-up">
                 <Button className="btn-gradient w-full">Get Started</Button>
               </Link>
             </div>

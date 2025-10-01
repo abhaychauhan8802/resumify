@@ -181,27 +181,27 @@
 
 @layer utilities {
   .btn-xl {
-    @apply py-7 px-14 has-[>svg]:px-10 text-base font-semibold rounded-full;
+    @apply rounded-full px-14 py-7 text-base font-semibold has-[>svg]:px-10;
   }
 
   .btn-outline {
-    @apply border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 text-foreground;
+    @apply bg-background hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 text-foreground border shadow-xs;
   }
 
   .btn-gradient {
-    @apply bg-gradient-to-br from-primary via-indigo-500 to-purple-500 hover:opacity-80 transition-all duration-300;
+    @apply from-primary bg-gradient-to-br via-indigo-500 to-purple-500 transition-all duration-300 hover:opacity-80;
   }
 
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-br from-primary via-indigo-500 to-purple-500;
+    @apply from-primary bg-gradient-to-br via-indigo-500 to-purple-500 bg-clip-text text-transparent;
   }
 
   .bg-gradient {
-    @apply bg-gradient-to-br from-primary via-indigo-500 to-purple-500;
+    @apply from-primary bg-gradient-to-br via-indigo-500 to-purple-500;
   }
 
   .scrollbar {
-    @apply [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:h-20  [&::-webkit-scrollbar-thumb]:bg-accent [&::-webkit-scrollbar-thumb]:rounded-full dark:[&::-webkit-scrollbar-track]:bg-neutral-700 dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500;
+    @apply [&::-webkit-scrollbar-thumb]:bg-accent [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-thumb]:h-20 [&::-webkit-scrollbar-thumb]:rounded-full dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500 [&::-webkit-scrollbar-track]:bg-transparent dark:[&::-webkit-scrollbar-track]:bg-neutral-700;
   }
 
   .scrollbar-none {

@@ -1,11 +1,14 @@
-import { UserButton, UserProfile } from "@clerk/nextjs";
+import { UserButton } from "@clerk/nextjs";
 import Logo from "./Logo";
+import Link from "next/link";
 
 const Header = () => {
   return (
     <header className="shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 p-3">
-        <Logo />
+        <Link href="/resumes">
+          <Logo />
+        </Link>
         <div className="flex items-center gap-3">
           <UserButton
             userProfileMode="navigation"

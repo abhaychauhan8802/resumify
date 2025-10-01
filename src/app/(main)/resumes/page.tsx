@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Your Resumes",
 };
 
-const Resumes = () => {
+const Page = () => {
   return (
     <section>
       <Button asChild className="btn-xl">
@@ -19,4 +19,4 @@ const Resumes = () => {
   );
 };
 
-export default Resumes;
+export default Page;

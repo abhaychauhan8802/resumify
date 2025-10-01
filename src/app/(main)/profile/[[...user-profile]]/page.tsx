@@ -1,6 +1,6 @@
 import { UserProfile } from "@clerk/nextjs";
 
-const ProfilePage = () => {
+const Page = () => {
   return (
     <div className="mt-10 flex min-h-screen justify-center">
       <UserProfile />
@@ -8,4 +8,4 @@ const ProfilePage = () => {
   );
 };
 
-export default ProfilePage;
+export default Page;

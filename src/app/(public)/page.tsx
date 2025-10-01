@@ -9,7 +9,7 @@ import {
   TemplateShowcase,
 } from "@/features/landing";
 
-const ResumifyLanding = () => {
+const Page = () => {
   return (
     <div className="min-h-screen overflow-x-hidden">
       <Header />
@@ -24,4 +24,4 @@ const ResumifyLanding = () => {
   );
 };
 
-export default ResumifyLanding;
+export default Page;
